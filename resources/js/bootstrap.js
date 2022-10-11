@@ -6,7 +6,9 @@ import 'bootstrap';
 import jquery from 'jquery';
 
 // window.Popper = require('popper.js').default;
-window.$ = jquery;
+// window.$ = window.jQuery = require('jquery');
+// window.$ = jquery;
+// console.log(window.$)
 
 /**
  * We'll load the axios HTTP library which allows us to easily issue requests
